@@ -1,21 +1,52 @@
-// app/layout.js  (or pages/_app.js if using Pages Router)
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
 export const metadata = {
-  title: "Chintan Chikitsa | Deepalli Sharma – Holistic Healer, Sound Healing & NLP Therapy Panchkula India",
-  description: "Deepalli Sharma is a certified Frequency Coach, Shamanic Healer, NLP Master & Sound Therapist in Panchkula. Book your free 20-min discovery call.",
-  keywords: "holistic healer Panchkula, sound healing India, NLP therapy Haryana, shamanic healing India, Deepalli Sharma, Chintan Chikitsa",
+  title: "Chintan Chikitsa | Deepalli Sharma – Frequency Healer",
+  description:
+    "Chintan Chikitsa by Deepalli Sharma – a holistic healing practice offering frequency healing, sound healing, and wellness services. Book a free call today.",
+  keywords: [
+    "frequency healer",
+    "sound healing",
+    "Deepalli Sharma",
+    "Chintan Chikitsa",
+    "holistic healing",
+    "energy healing",
+  ],
+  authors: [{ name: "Deepalli Sharma" }],
   openGraph: {
-    title: "Chintan Chikitsa | Deepalli Sharma – Heal From Within, Rise Without Limits",
-    description: "500+ lives transformed. Sound therapy, NLP & Quantum Soul Alignment in Panchkula India.",
-    url: "https://www.chintanchikitsa.com/",
+    title: "Chintan Chikitsa | Deepalli Sharma – Frequency Healer",
+    description:
+      "Holistic healing through frequency and sound. Book a free discovery call with Deepalli Sharma.",
+    url: "https://chintanchikitsa.com",
     siteName: "Chintan Chikitsa",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chintan Chikitsa | Deepalli Sharma",
-    description: "Certified Frequency Coach & Holistic Healer. Book a free call.",
+    title: "Chintan Chikitsa | Deepalli Sharma – Frequency Healer",
+    description:
+      "Holistic healing through frequency and sound. Book a free discovery call with Deepalli Sharma.",
   },
-  alternates: {
-    canonical: "https://www.chintanchikitsa.com/",
-  },
+  metadataBase: new URL("https://chintanchikitsa.com"),
 };
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        {children}
+      </body>
+    </html>
+  );
+}
