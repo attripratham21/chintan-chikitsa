@@ -637,7 +637,7 @@ const HomePage = ({ setPage }) => {
           </div>
 
           <div className="fadeUp-1">
-            <Label>Certified Frequency Coach · Shamanic Healer · NLP Practitioner in Chandigarh Panchkula & all over Globe</Label>
+            <Label>Certified Frequency Coach · Shamanic Healer · NLP Practitioner · Corporate Wellness Coach</Label>
           </div>
 
           <h1 className="fadeUp-2" style={{ fontSize: "clamp(48px, 9vw, 108px)", fontWeight: 300, lineHeight: 1.0, marginBottom: 28, letterSpacing: "-0.02em" }}>
