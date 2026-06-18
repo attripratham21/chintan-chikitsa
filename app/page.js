@@ -1766,6 +1766,7 @@ const Footer = ({ setPage }) => (
           { title: "Services", links: [["services", "Shamanic Healing"], ["services", "Sound Healing"], ["services", "NLP Therapy"], ["services", "Bach Flower Remedies"], ["services", "Past Life Regression"], ["soundhealing", "Corporate Wellness"]] },
           { title: "Company", links: [["about", "About Deepalli"], ["events", "Upcoming Events"], ["reviews", "Client Reviews"], ["contact", "Contact Us"]] },
           { title: "Book Now", links: [["contact", "Free Discovery Call"], ["contact", "Send a Message"], ["contact", "Corporate Enquiry"]] },
+            { title: "Serving", links: [["Serving", "Panchkula"], ["Serving", "Chandigarh"], ["Serving", "Mohali"], ["Serving", "India"], ["Serving", "All Over the Globe"]] },
         ].map((col) => (
           <nav key={col.title} aria-label={`${col.title} links`}>
             <div style={{ fontSize: 10, color: T.gold, letterSpacing: "0.2em", textTransform: "uppercase", marginBottom: 20, fontWeight: 700 }}>{col.title}</div>
