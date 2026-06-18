@@ -65,7 +65,7 @@ const SEOHead = ({ page }) => {
       home: {
         title: "Chintan Chikitsa | Deepalli Sharma – Holistic Healer, Sound Healing & NLP Therapy Panchkula India",
         description: "Deepalli Sharma is a certified Frequency Coach, Shamanic Healer, NLP Master & Sound Therapist in Panchkula, India. Heal anxiety, trauma, stress & more. Book your free 20-min discovery call today.",
-        keywords: "holistic healer Panchkula, sound healing India, NLP therapy Punjab, shamanic healing India, frequency coach, Bach flower remedies, past life regression India, Deepalli Sharma, Chintan Chikitsa",
+        keywords: "holistic healer Panchkula, sound healing India, NLP therapy Haryana, shamanic healing India, frequency coach, Bach flower remedies, past life regression India, Deepalli Sharma, Chintan Chikitsa",
         canonical: "https://www.chintanchikitsa.com/",
         ogTitle: "Chintan Chikitsa | Deepalli Sharma – Heal From Within, Rise Without Limits",
         ogDesc: "500+ lives transformed. Shamanic healing, Sound therapy, NLP & Quantum Soul Alignment in Panchkula India. Free discovery call available.",
@@ -81,7 +81,7 @@ const SEOHead = ({ page }) => {
       services: {
         title: "Healing Services | Shamanism, Sound Healing, NLP, Bach Flowers – Chintan Chikitsa",
         description: "Explore holistic healing services by Deepalli Sharma in Panchkula, India.",
-        keywords: "shamanic healing India, sound healing Panchkula, NLP therapy Punjab, Bach flower remedies",
+        keywords: "shamanic healing India, sound healing Panchkula, NLP therapy Haryana, Bach flower remedies",
         canonical: "https://www.chintanchikitsa.com/services",
         ogTitle: "Holistic Healing Services | Chintan Chikitsa",
         ogDesc: "Shamanic healing, NLP, Sound Therapy, Bach Flowers & more.",
@@ -97,7 +97,7 @@ const SEOHead = ({ page }) => {
       events: {
         title: "Healing Events & Sound Bath Ceremonies | Chintan Chikitsa – Panchkula India",
         description: "Join upcoming sound baths, shamanic healing circles, NLP workshops & group healing ceremonies.",
-        keywords: "sound bath events Panchkula, healing workshop India, shamanic circle Punjab",
+        keywords: "sound bath events Panchkula, healing workshop India, shamanic circle Haryana",
         canonical: "https://www.chintanchikitsa.com/events",
         ogTitle: "Upcoming Healing Events | Chintan Chikitsa",
         ogDesc: "Sound baths, shamanic circles & NLP workshops in Panchkula India.",
@@ -1267,7 +1267,7 @@ const EventsPage = () => {
   const ADMIN_PASSWORD = "deepalli2025";
 
   const demoEvents = [
-    { id: "demo1", title: "Full Moon Sound Bath", date: "2025-07-10", time: "7:00 PM", location: "Panchkula, Punjab", type: "Sound Bath", description: "A powerful group healing ceremony under the full moon. Bring your intentions." },
+    { id: "demo1", title: "Full Moon Sound Bath", date: "2025-07-10", time: "7:00 PM", location: "Panchkula, Haryana", type: "Sound Bath", description: "A powerful group healing ceremony under the full moon. Bring your intentions." },
   ];
 
   const loadEvents = useCallback(async () => {
@@ -1327,7 +1327,7 @@ const EventsPage = () => {
       <div style={{ maxWidth: 980, margin: "0 auto" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 68, flexWrap: "wrap", gap: 18 }}>
           <div>
-            <Label>Healing Gatherings – Panchkula, Punjab &amp; Online</Label>
+            <Label>Healing Gatherings – Panchkula, Haryana &amp; Online</Label>
             <h1 style={{ fontSize: "clamp(36px, 5vw, 72px)", fontWeight: 300 }}>Sacred <em style={{ color: T.gold }}>Events</em></h1>
             <p style={{ color: T.offWhite, maxWidth: 480, lineHeight: 1.85, marginTop: 14, opacity: 0.85 }}>Join Deepalli for group sound baths, shamanic healing circles, NLP workshops and immersive healing ceremonies in Panchkula and online across India.</p>
           </div>
@@ -1793,7 +1793,7 @@ const Footer = ({ setPage }) => (
           © 2025 Chintan Chikitsa · Deepalli Sharma · All rights reserved ·{" "}
           <a href="https://www.instagram.com/chintan.chikitsa/" target="_blank" rel="noopener noreferrer" style={{ color: T.teal }}>Panchkula, Haryana, India</a>
         </p>
-        <p style={{ color: T.dimmer, fontSize: 11 }}>Holistic Healer Panchkula | Sound Healing India | NLP Therapy Punjab</p>
+        <p style={{ color: T.dimmer, fontSize: 11 }}>Holistic Healer Panchkula | Sound Healing India | NLP Therapy Haryana</p>
       </div>
     </div>
   </footer>
