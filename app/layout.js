@@ -2,7 +2,7 @@
 export const metadata = {
   title: "Chintan Chikitsa | Deepalli Sharma – Holistic Healer, Sound Healing & NLP Therapy Panchkula India",
   description: "Deepalli Sharma is a certified Frequency Coach, Shamanic Healer, NLP Master & Sound Therapist in Panchkula. Book your free 20-min discovery call.",
-  keywords: "holistic healer Panchkula, sound healing India, NLP therapy Punjab, shamanic healing India, Deepalli Sharma, Chintan Chikitsa",
+  keywords: "holistic healer Panchkula, sound healing India, NLP therapy Haryana, shamanic healing India, Deepalli Sharma, Chintan Chikitsa",
   openGraph: {
     title: "Chintan Chikitsa | Deepalli Sharma – Heal From Within, Rise Without Limits",
     description: "500+ lives transformed. Sound therapy, NLP & Quantum Soul Alignment in Panchkula India.",
